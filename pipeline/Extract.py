@@ -15,9 +15,9 @@ key_stats = pd.read_csv(key_data)
 
 # printing data for verification
 
-# print(attacking_data.info() )
 
-# print(defence_data.info() )
+
+# print(defence_data.columns )
 # #
 # print(key_stats.info() )
 

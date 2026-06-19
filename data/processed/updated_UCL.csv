@@ -1,0 +1,33 @@
+PLAYER_x,CLUB,POSITION_x,ASSISTS,CORNER(TAKEN),OFFSIDES,DRIBBLES,MATCHES_x,PLAYER_y,POSITION_y,RECOVERY(BALL),TACKLES,TACKLES(WON),TACKLES(LOST),CLEARANCE(ATTEMPT),MATCHES_y
+Antony,Ajax,Forward,5,3,4,28,7,Martínez,Defender,53,10,2,8,19,8
+Zapata,Atalanta,Forward,3,0,7,10,6,Palomino,Defender,41,6,3,3,14,5
+Griezmann,Atlético,Forward,2,2,1,8,9,Reinildo,Defender,76,13,6,7,20,10
+Jordi Alba,Barcelona,Defender,1,0,1,0,5,Piqué,Defender,33,8,1,7,13,5
+Sané,Bayern,Midfielder,6,3,3,32,10,Pavard,Defender,55,12,7,5,17,10
+João Mário,Benfica,Midfielder,4,8,0,7,8,Otamendi,Defender,63,28,17,11,48,9
+Pjanic,Beşiktaş,Midfielder,2,9,0,4,3,Souza,Midfielder,40,20,12,8,9,5
+Ziyech,Chelsea,Midfielder,2,23,0,12,9,Thiago Silva,Defender,65,9,4,5,17,9
+Lang,Club Brugge,Forward,1,12,5,17,6,Hendry,Defender,42,6,4,2,18,6
+Bellingham,Dortmund,Midfielder,3,1,1,24,6,Meunier,Defender,42,3,0,3,9,6
+Tsygankov,Dynamo Kyiv,Midfielder,1,10,0,8,6,Sydorchuk,Midfielder,37,5,3,2,8,6
+Vidal,Inter,Midfielder,2,0,0,2,7,Bastoni,Defender,46,7,2,5,18,8
+Bernardeschi,Juventus,Midfielder,2,7,1,7,5,De Ligt,Defender,49,5,4,1,24,7
+Ikoné,LOSC,Midfielder,2,0,1,15,5,André,Midfielder,49,24,12,12,11,7
+Angeliño,Leipzig,Defender,3,8,0,4,5,Gvardiol,Defender,39,9,5,4,12,6
+Alexander-Arnold,Liverpool,Defender,4,36,0,9,9,Fabinho,Midfielder,74,23,9,14,8,13
+Birmančević,Malmö,Midfielder,1,0,0,19,6,Ahmedhodžić,Defender,32,6,3,3,24,5
+De Bruyne,Man. City,Midfielder,4,18,0,14,10,João Cancelo,Defender,56,9,6,3,13,9
+Bruno Fernandes,Man. United,Midfielder,7,10,2,7,7,Varane,Defender,34,0,0,0,18,5
+T. Hernández,Milan,Defender,1,3,4,10,5,Romagnoli,Defender,32,10,7,3,18,5
+Mbappé,Paris,Forward,4,4,8,43,8,Marquinhos,Defender,42,2,2,0,36,8
+Taremi,Porto,Forward,1,1,2,4,6,Mbemba,Defender,31,4,1,3,19,5
+Vinícius Júnior,Real Madrid,Forward,6,3,4,83,13,Casemiro,Midfielder,76,31,13,18,19,11
+Aaronson,Salzburg,Midfielder,2,4,5,9,8,Seiwald,Midfielder,44,18,6,12,9,8
+Rakitić,Sevilla,Midfielder,1,7,0,0,5,Fernando,Midfielder,51,3,1,2,6,6
+Alan Patrick,Shakhtar Donetsk,Midfielder,1,4,0,5,4,Dodô,Defender,37,10,6,4,8,6
+Cristiano,Sheriff,Defender,3,0,1,7,6,Fernando Costanza,Defender,39,19,13,6,39,6
+Pedro Gonçalves,Sporting CP,Midfielder,2,7,0,10,5,João Palhinha,Midfielder,36,29,11,18,6,6
+Gerard Moreno,Villarreal,Forward,4,0,3,9,7,Albiol,Defender,73,9,6,3,62,12
+Arnold,Wolfsburg,Midfielder,3,10,0,1,6,Guilavogui,Midfielder,39,6,1,5,26,5
+Aebischer,Young Boys,Midfielder,1,11,0,6,6,Lauper,Midfielder,43,12,7,5,13,6
+Douglas Santos,Zenit,Defender,2,6,1,3,5,Barrios,Midfielder,41,11,7,4,13,6
