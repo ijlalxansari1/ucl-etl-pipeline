@@ -43,5 +43,11 @@ attacking_df= attacking_df.sort_values(ascending=False)
 
 # 1.Most asssists by a player
 
-attacking_df = attacking_df.groupby("PLAYER_x")["ASSISTS"].sum()
-attacking_df= attacking_df.sort_values(ascending=False)
+# Assists_sum = attacking_df.groupby("PLAYERT")["ASSISTS"].sum()
+Assists_sum = attacking_df.sort_values(ascending=False)
+
+# 1.Most asssists by a player
+
+print(Assists_sum.head())
+# attacking_df = attacking_df.groupby("PLAYER")["ASSISTS"].sum()
+# attacking_df= attacking_df.sort_values(ascending=False)

@@ -2,8 +2,8 @@ from Extract import key_stats as main_data
 from Extract import defence_data as defence
 from Extract import attacking_data as attack
 
+import pandas as pd
 # transform phase
-
 
 
 
@@ -26,8 +26,8 @@ defence = defence.rename(columns={"player_name": "player" ,"balls_recoverd":"Rec
 defence.columns = defence.columns.str.upper()
 
 
-processed_defence_csv = defence.to_csv("../data/processed/defence_Processed.csv",index=False)
-
+defence.to_csv("../data/processed/defence_Processed.csv", index=False)
+print("Defence data saved.")
 
 #####---- Key stats data for the main data ---------#####
 
@@ -40,8 +40,9 @@ attack = attack.rename(columns={"player_name":"player","corner_taken":"corner(ta
 # converting to upper case (columns)
 attack.columns = attack.columns.str.upper()
 
-attacking_processed = attack.to_csv("../data/processed/attack_Processed.csv",index=False)
-print(attack.head("CLUB"))
+attack.to_csv("../data/processed/attack_Processed.csv",index=False)
+print("Attack data saved.")
+
 
 # print(type(defence))
 
@@ -50,11 +51,19 @@ print(attack.head("CLUB"))
 
 # converting column - distance_covered to float from string and sorting extra spaces
 
+
+
 main_data["distance_covered"] =main_data["distance_covered"].replace('-',None)
 
 
 main_data["distance_covered"] =main_data["distance_covered"].astype(float)
-main_data["distance_covered"] = main_data["distance_covered"].fillna(main_data["distance_covered"].mean())
+main_data["distance_covered"] = pd.to_numeric(
+    main_data["distance_covered"], errors='coerce'
+)
+# 'coerce' turns anything it can't parse into NaN automatically
+main_data["distance_covered"] = main_data["distance_covered"].fillna(
+    main_data["distance_covered"].mean()
+)
 
 
 # Renaming and fixing column names
@@ -65,15 +74,11 @@ main_data.columns =  main_data.columns.str.upper()
 
 
 # saving files
-
-
-processed_csv = main_data.to_csv("../data/processed/UCL_Processed.csv",index=False)
+main_data.to_csv("../data/processed/UCL_Processed.csv",index=False)
+print("Main data saved.")
 
 
 # print(f"The processed file has been saved in data/processed directory and file named 'UCL_Processed.csv'")
-
-
-
 
 
 
